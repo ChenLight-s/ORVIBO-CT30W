@@ -52,3 +52,59 @@ OW8266-02Q 与 WT8266-S1 非常相似，资料可从此获得：[WT8266-S1 WiFi 
 
  - ow8266 文件夹为 Arduino 发送接收红外示例，可以使用 Arduino 工具直接下载；
  - https://github.com/Mixiaoxiao/ESP8266-IR-HOMEKIT
+
+### 默认启动信息：
+  ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+  
+  load 0x40100000, len 1416, room 16 
+  tail 8
+  chksum 0x0d
+  load 0x3ffe8000, len 764, room 0 
+  tail 12
+  chksum 0x6c
+  ho 0 tail 12 room 4
+  load 0x3ffe82fc, len 764, room 12 
+  tail 0
+  chksum 0x6b
+  csum 0x6b
+  
+  2nd boot version : 1.4(b1)
+  [D]: magic e9
+  [D]: blocks 03
+  [D]: spi_mode 00
+  [D]: spi_speed 00
+  [D]: spi_size_map 05
+    SPI Speed      : 40MHz
+    SPI Mode       : QIO
+    SPI Flash Size & Map: 16Mbit(1024KB+1024KB)
+  @0x1000 : 500304EA 40100004 00000000 00080080
+  u_param.ready_flag 255,u_param.move_flag 255,bin_len:4294967295
+  flash init status
+  jump to run user1 @ 1000
+  
+  
+  
+  [2025-07-05 17:12:22.446]# RECV ASCII>
+  OS SDK ver: 2.0.0(30727a0) compiled @ Jan  3 2019 14:43:04
+  phy ver: 1055_8, pp ver: 10.7
+  
+  rf cal sector: 507
+  
+  
+  
+  
+  ID : b6646e46ed994627bd0cc0c1a34fd951
+  SwVer : v2.0.15
+  
+  #MAC#C8C9A30B0009
+  
+  
+  
+  System Power On
+  WIFI start
+  
+  mode : sta(c8:c9:a3:0b:00:09) + softAP(ca:c9:a3:0b:00:09)
+  add if0
+  dhcp server start:(ip:192.168.188.1,mask:255.255.255.0,gw:192.168.188.1)
+  add if1
+  bcn 100
